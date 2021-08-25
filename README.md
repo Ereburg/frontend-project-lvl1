@@ -16,7 +16,7 @@ $ make install
 
 ## Games:
 
-### Brain-even
+### brain-even
 
 **Description**: answer 'yes' if number is even otherwise answer 'no'.
 
@@ -28,11 +28,15 @@ $ make install
 
 ---
 
-### Brain-calc
+### brain-calc
 
 **Description**: what is the result of the expression?
 
-**Usage**: ```sh $ brain-calc ```
+**Usage**:
+
+```sh 
+$ brain-calc 
+```
 
 **Demo**:
 
@@ -40,13 +44,34 @@ $ make install
 
 ---
 
-### Brain-gdc
+### brain-gdc
 
 **Description**: find the greatest common divisor of given numbers.
 
-**Usage**: ```sh $ brain-gcd ```
+**Usage**:
+
+```sh
+ $ brain-gcd 
+ ```
 
 **Demo**:
 
 [![asciicast](https://asciinema.org/a/fnjMNAcsFybxq8xJmT2KtYP7l.svg)](https://asciinema.org/a/fnjMNAcsFybxq8xJmT2KtYP7l)
+
+---
+
+### brain-progression
+
+**Description**: what number is missing in the progression?
+
+**Usage**:
+
+```sh 
+$ brain-progression 
+```
+
+**Demo**:
+
+[![asciicast](https://asciinema.org/a/PRFj2YBUq89krqk6A74Ci9Ltv.svg)](https://asciinema.org/a/PRFj2YBUq89krqk6A74Ci9Ltv)
+
 ---
