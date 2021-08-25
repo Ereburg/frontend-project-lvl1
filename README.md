@@ -20,21 +20,33 @@ $ make install
 
 **Description**: answer 'yes' if number is even otherwise answer 'no'.
 
+**Usage**: ```sh $ brain-even ```
+
 **Demo**:
 
 [![asciicast](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0.svg)](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0)
 
-**Usage**: ```sh $ brain-even ```
-
 ---
 
 ### Brain-calc
+
 **Description**: what is the result of the expression?
+
+**Usage**: ```sh $ brain-calc ```
 
 **Demo**:
 
 [![asciicast](https://asciinema.org/a/9S6B1NtS0wD6wfyUlHtfQswlH.svg)](https://asciinema.org/a/9S6B1NtS0wD6wfyUlHtfQswlH)
 
-**Usage**: ```sh $ brain-calc ```
+---
 
+### Brain-gdc
+
+**Description**: find the greatest common divisor of given numbers.
+
+**Usage**: ```sh $ brain-gcd ```
+
+**Demo**:
+
+[![asciicast](https://asciinema.org/a/fnjMNAcsFybxq8xJmT2KtYP7l.svg)](https://asciinema.org/a/fnjMNAcsFybxq8xJmT2KtYP7l)
 ---
