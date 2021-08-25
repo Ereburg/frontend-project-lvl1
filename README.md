@@ -1,4 +1,5 @@
 ### Hexlet tests and linter status:
+
 [![Actions Status](https://github.com/Ereburg/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Ereburg/frontend-project-lvl1/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
@@ -13,17 +14,27 @@
 $ make install
 ```
 
-## Games description
-### Brain-even
-**Description**: <br>
-Answer 'yes' if number is even otherwise answer 'no'.
+## Games:
 
-**Asciinema results**:
+### Brain-even
+
+**Description**: answer 'yes' if number is even otherwise answer 'no'.
+
+**Demo**:
 
 [![asciicast](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0.svg)](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0)
 
-**usage**:
-```sh
-$ brain-even
-```
+**Usage**: ```sh $ brain-even ```
 
+---
+
+### Brain-calc
+**Description**: what is the result of the expression?
+
+**Demo**:
+
+[![asciicast](https://asciinema.org/a/9S6B1NtS0wD6wfyUlHtfQswlH.svg)](https://asciinema.org/a/9S6B1NtS0wD6wfyUlHtfQswlH)
+
+**Usage**: ```sh $ brain-calc ```
+
+---

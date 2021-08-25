@@ -16,7 +16,7 @@ const play = (game) => {
     const answer = readlineSync.question('Your answer: ');
 
     if (answer.toString().toLowerCase() !== correctAnswer) {
-      console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
       return;
     }
