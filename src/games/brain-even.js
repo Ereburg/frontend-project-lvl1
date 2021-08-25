@@ -10,4 +10,4 @@ const newGame = () => {
   return [question, correctAnswer];
 };
 
-export default {description, newGame};
+export default { description, newGame };
