@@ -3,16 +3,17 @@ on: [ push ]
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [ 16.x ]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
         with:
-          node-version: '12'
-      - name: install deps
-        run: npm install
-#      - name: npm run build
-#        run: npm run build
-      - name: run lint
-        run: make lint
-        env:
-          CI: true
+          node-version: ${{ matrix.node-version }}
+      - run: make install
+      - run: make lint

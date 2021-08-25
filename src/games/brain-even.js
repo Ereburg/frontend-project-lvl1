@@ -1,4 +1,4 @@
-import { getRandomInt, isEven } from "../utils.js";
+import { getRandomInt, isEven } from '../utils.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -10,4 +10,4 @@ const newGame = () => {
   return [question, correctAnswer];
 };
 
-export default { description, newGame };
+export default {description, newGame};

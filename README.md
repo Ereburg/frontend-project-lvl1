@@ -14,14 +14,16 @@ $ make install
 ```
 
 ## Games description
-- ### Brain-even
-    **Description**: Answer 'yes' if number is even otherwise answer 'no'
-    
-    **Asciinema results**:
-    [![asciicast](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0.svg)](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0)
-    
-    **usage**:
-    ```sh
-    $ brain-even
-    ```
-- 
+### Brain-even
+**Description**: <br>
+Answer 'yes' if number is even otherwise answer 'no'.
+
+**Asciinema results**:
+
+[![asciicast](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0.svg)](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0)
+
+**usage**:
+```sh
+$ brain-even
+```
+
