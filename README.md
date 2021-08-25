@@ -7,5 +7,21 @@
 
 ![example workflow](https://github.com/ereburg/frontend-project-lvl1/actions/workflows/linting.yml/badge.svg)
 
+## Setup
 
+```sh
+$ make install
+```
 
+## Games description
+- ### Brain-even
+    **Description**: Answer 'yes' if number is even otherwise answer 'no'
+    
+    **Asciinema results**:
+    [![asciicast](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0.svg)](https://asciinema.org/a/WUTyZIPpsFAb2lifYuVICeVW0)
+    
+    **usage**:
+    ```sh
+    $ brain-even
+    ```
+- 
