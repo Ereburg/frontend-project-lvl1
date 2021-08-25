@@ -75,3 +75,17 @@ $ brain-progression
 [![asciicast](https://asciinema.org/a/PRFj2YBUq89krqk6A74Ci9Ltv.svg)](https://asciinema.org/a/PRFj2YBUq89krqk6A74Ci9Ltv)
 
 ---
+
+### brain-prime
+
+**Description**: answer "yes" if the number is prime, otherwise answer "no".
+
+**Usage**:
+
+```sh 
+$ brain-prime
+```
+
+**Demo**:
+[![asciicast](https://asciinema.org/a/TUNzPFSlRKoeqrpAYzfYoXPCl.svg)](https://asciinema.org/a/TUNzPFSlRKoeqrpAYzfYoXPCl)
+---
